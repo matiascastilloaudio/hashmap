@@ -26,14 +26,14 @@ console.log(test.length());
 console.log(test.capacity);
 console.log(test.size / test.capacity);
 
-// populating - 
+// populating
 test.set('moon', 'silver');
 
 console.log(test.length());
 console.log(test.capacity);
 console.log(test.size / test.capacity);
 
-// get method - here it returns null sometimes, and the it works, why? it does no happen pre populating
+// get method
 console.log(test.get('apple'));
 
 // has method
